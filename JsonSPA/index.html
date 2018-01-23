@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+$(document).ready(function(){
+    //$("#button1").click(function(){
+    //    $("#div1").load("Question1.html");
+    //});        
+        $("#button1").click(function () {
+            $.getJSON("MCQ/Question1.js", function (obj) {
+                $("#div1").empty();
+                $("#div1").append(obj.Question);
+                $("#div1").append("<br/>");
+                $("#div1").append("<br />A. <input type='radio' name='answer' value=" + obj.Option1 + " />" + obj.Option1);
+                $("#div1").append("<br />B. <input type='radio' name='answer' value=" + obj.Option2 + " />" + obj.Option2);
+                $("#div1").append("<br />C. <input type='radio' name='answer' value=" + obj.Option3 + " />" + obj.Option3);
+                $("#div1").append("<br />D. <input type='radio' name='answer' value=" + obj.Option4 + " />" + obj.Option4);                
+            }
+                );
+        });
+        $("#button2").click(function () {
+            $.getJSON("MCQ/Question2.js", function (obj) {
+                $("#div1").empty();
+                $("#div1").append(obj.Question);
+                $("#div1").append("<br/>");
+                $("#div1").append("<br />A. <input type='radio' name='answer' value=" + obj.Option1 + " />" + obj.Option1);
+                $("#div1").append("<br />B. <input type='radio' name='answer' value=" + obj.Option2 + " />" + obj.Option2);
+                $("#div1").append("<br />C. <input type='radio' name='answer' value=" + obj.Option3 + " />" + obj.Option3);
+                $("#div1").append("<br />D. <input type='radio' name='answer' value=" + obj.Option4 + " />" + obj.Option4);
+            }
+            );
+        });
+        $("#button3").click(function () {
+            $.getJSON("MCQ/Question3.js", function (obj) {
+                $("#div1").empty();
+                $("#div1").append(obj.Question);
+                $("#div1").append("<br/>");
+                $("#div1").append("<br />A. <input type='radio' name='answer' value=" + obj.Option1 + " />" + obj.Option1);
+                $("#div1").append("<br />B. <input type='radio' name='answer' value=" + obj.Option2 + " />" + obj.Option2);
+                $("#div1").append("<br />C. <input type='radio' name='answer' value=" + obj.Option3 + " />" + obj.Option3);
+                $("#div1").append("<br />D. <input type='radio' name='answer' value=" + obj.Option4 + " />" + obj.Option4);
+            }
+            );
+        });
+        $("#button4").click(function () {
+            $.getJSON("MCQ/Question4.js", function (obj) {
+                $("#div1").empty();
+                $("#div1").append(obj.Question);
+                $("#div1").append("<br/>");
+                $("#div1").append("<br />A. <input type='radio' name='answer' value=" + obj.Option1 + " />" + obj.Option1);
+                $("#div1").append("<br />B. <input type='radio' name='answer' value=" + obj.Option2 + " />" + obj.Option2);
+                $("#div1").append("<br />C. <input type='radio' name='answer' value=" + obj.Option3 + " />" + obj.Option3);
+                $("#div1").append("<br />D. <input type='radio' name='answer' value=" + obj.Option4 + " />" + obj.Option4);
+            }
+            );
+        });
+        $("#button5").click(function () {
+            $.getJSON("MCQ/Question5.js", function (obj) {
+                $("#div1").empty();
+                $("#div1").append(obj.Question);
+                $("#div1").append("<br/>");
+                $("#div1").append("<br />A. <input type='radio' name='answer' value=" + obj.Option1 + " />" + obj.Option1);
+                $("#div1").append("<br />B. <input type='radio' name='answer' value=" + obj.Option2 + " />" + obj.Option2);
+                $("#div1").append("<br />C. <input type='radio' name='answer' value=" + obj.Option3 + " />" + obj.Option3);
+                $("#div1").append("<br />D. <input type='radio' name='answer' value=" + obj.Option4 + " />" + obj.Option4);
+            }
+            );
+        });
+        $("#button6").click(function () {
+            $.getJSON("MCQ/Question6.js", function (obj) {
+                $("#div1").empty();
+                $("#div1").append(obj.Question);
+                $("#div1").append("<br/>");
+                $("#div1").append("<br />A. <input type='radio' name='answer' value=" + obj.Option1 + " />" + obj.Option1);
+                $("#div1").append("<br />B. <input type='radio' name='answer' value=" + obj.Option2 + " />" + obj.Option2);
+                $("#div1").append("<br />C. <input type='radio' name='answer' value=" + obj.Option3 + " />" + obj.Option3);
+                $("#div1").append("<br />D. <input type='radio' name='answer' value=" + obj.Option4 + " />" + obj.Option4);
+            }
+            );
+        });
+        $("#button7").click(function () {
+            $.getJSON("MCQ/Question7.js", function (obj) {
+                $("#div1").empty();
+                $("#div1").append(obj.Question);
+                $("#div1").append("<br/>");
+                $("#div1").append("<br />A. <input type='radio' name='answer' value=" + obj.Option1 + " />" + obj.Option1);
+                $("#div1").append("<br />B. <input type='radio' name='answer' value=" + obj.Option2 + " />" + obj.Option2);
+                $("#div1").append("<br />C. <input type='radio' name='answer' value=" + obj.Option3 + " />" + obj.Option3);
+                $("#div1").append("<br />D. <input type='radio' name='answer' value=" + obj.Option4 + " />" + obj.Option4);
+            }
+            );
+        });
+        $("#button8").click(function () {
+            $.getJSON("MCQ/Question8.js", function (obj) {
+                $("#div1").empty();
+                $("#div1").append(obj.Question);
+                $("#div1").append("<br/>");
+                $("#div1").append("<br />A. <input type='radio' name='answer' value=" + obj.Option1 + " />" + obj.Option1);
+                $("#div1").append("<br />B. <input type='radio' name='answer' value=" + obj.Option2 + " />" + obj.Option2);
+                $("#div1").append("<br />C. <input type='radio' name='answer' value=" + obj.Option3 + " />" + obj.Option3);
+                $("#div1").append("<br />D. <input type='radio' name='answer' value=" + obj.Option4 + " />" + obj.Option4);
+            }
+            );
+        });
+        $("#button9").click(function () {
+            $.getJSON("MCQ/Question9.js", function (obj) {
+                $("#div1").empty();
+                $("#div1").append(obj.Question);
+                $("#div1").append("<br/>");
+                $("#div1").append("<br />A. <input type='radio' name='answer' value=" + obj.Option1 + " />" + obj.Option1);
+                $("#div1").append("<br />B. <input type='radio' name='answer' value=" + obj.Option2 + " />" + obj.Option2);
+                $("#div1").append("<br />C. <input type='radio' name='answer' value=" + obj.Option3 + " />" + obj.Option3);
+                $("#div1").append("<br />D. <input type='radio' name='answer' value=" + obj.Option4 + " />" + obj.Option4);
+            }
+            );
+        });
+        $("#button10").click(function () {
+            $.getJSON("MCQ/Question10.js", function (obj) {
+                $("#div1").empty();
+                $("#div1").append(obj.Question);
+                $("#div1").append("<br/>");
+                //$("#div1").append(obj.Options);
+                $("#div1").append("<br />A. <input type='radio' name='answer' value=" + obj.Option1 + " />" + obj.Option1);
+                $("#div1").append("<br />B. <input type='radio' name='answer' value=" + obj.Option2 + " />" + obj.Option2);
+                $("#div1").append("<br />C. <input type='radio' name='answer' value=" + obj.Option3 + " />" + obj.Option3);
+                $("#div1").append("<br />D. <input type='radio' name='answer' value=" + obj.Option4 + " />" + obj.Option4);
+            }
+            );
+        });
+});
+    </script>
+</head>
+<body>
+    <input type="button" id="button1" value="Question1" />&nbsp;
+    <input type="button" id="button2" value="Question2" />&nbsp;
+    <input type="button" id="button3" value="Question3" />&nbsp;
+    <input type="button" id="button4" value="Question4" />&nbsp;
+    <input type="button" id="button5" value="Question5" />&nbsp;
+    <input type="button" id="button6" value="Question6" />&nbsp;
+    <input type="button" id="button7" value="Question7" />&nbsp;
+    <input type="button" id="button8" value="Question8" />&nbsp;
+    <input type="button" id="button9" value="Question9" />&nbsp;
+    <input type="button" id="button10" value="Question10" />
+   
+    <br />
+    <div id="div1">
+
+    </div>
+</body>
+</html>
